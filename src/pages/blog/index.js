@@ -21,13 +21,13 @@ const BlogPage = (props) => {
     n.async=!0,n.defer=!0,
     n.type="text/javascript",
     n.src=t+"/static/js/widget.js?config="+JSON.stringify(a),c.appendChild(n)
-}(document,"https://qa.engati.com",
+}(document,"https://dev.engati.com",
     {
-        bot_key:"7e95499ea0dc425e",
+        bot_key:"e0347ad6e7f34561",
         welcome_msg:true,
         branding_key:"default",
-        server:"https://qa.engati.com",
-        e:"qa"
+        server:"https://dev.engati.com",
+        e:"d"
     }
 );`;
     if(!document.getElementById('engt-bot-script')) {
